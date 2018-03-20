@@ -5,6 +5,11 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.util.Properties;
 
+/**
+ * 
+ * @author lxm
+ *
+ */
 public class BaseDAO {
 	static Properties prop = new Properties();
 	//静态块  先执行且执行一次  优先于程序入口执行
